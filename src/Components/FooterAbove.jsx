@@ -3,11 +3,11 @@ import footerimage from '../assets/FOOTER/Footer'
 
 function FooterAbove() {
   return (
-    <div  className=' flex m-3'>
+    <div  className=' flex-wrap flex m-3'>
       {
         footerimage.map((data)=>{
             return (
-                <div className=' m-1' id={data.id}>
+                <div className=' border border-black m-1' id={data.id}>
                     <img src={data.image} alt="" />
                 </div>
             )
