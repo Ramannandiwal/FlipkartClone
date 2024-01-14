@@ -1,0 +1,60 @@
+import { nanoid } from 'nanoid'
+const data =[
+    {
+        id:nanoid(),
+        name:"Samsung",
+        img:"https://m.media-amazon.com/images/I/91ItZJh1FDL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹19,999"
+    },
+    {
+        id:nanoid(),
+        name:"Redmi",
+        img:"https://m.media-amazon.com/images/I/81RR0TAz+5L._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹5,299"
+    },
+    {
+        id:nanoid(),
+        name:"OnePlus",
+        img:"https://m.media-amazon.com/images/I/61LB+d0vheL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹5,299"
+    },
+    {
+        id:nanoid(),
+        name:"realme",
+        img:"https://m.media-amazon.com/images/I/71dEY4Neo3L._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹9749"
+    },
+    {
+        id:nanoid(),
+        name:"POCO",
+        img:"https://m.media-amazon.com/images/I/61NJ8pnt8FL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹5798"
+    },
+    {
+        id:nanoid(),
+        name:"Samsung",
+        img:"https://m.media-amazon.com/images/I/81ZSn2rk9WL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹10,999"
+    },
+    {
+        id:nanoid(),
+        name:"Nokia",
+        img:"https://m.media-amazon.com/images/I/61aKBXoAeAL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹6999"
+    },
+    {
+        id:nanoid(),
+        name:"Nokia",
+        img:"https://m.media-amazon.com/images/I/714-klcm1rL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹13999"
+    },
+    {
+        id:nanoid(),
+        name:"Redmi",
+        img:"https://m.media-amazon.com/images/I/61uUEqO5uQL._AC_UY327_FMwebp_QL65_.jpg",
+        price:"₹12333"
+    },
+   
+    
+]
+export default data;
